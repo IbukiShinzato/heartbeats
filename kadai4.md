@@ -134,13 +134,17 @@ ibuki-hbtask.local.conf
 </VirtualHost>
 ```
 
-```
+
 VirtualHost *:80 はポート80に対する全てのリクエストに適用される
+
 Servername はメインドメイン名を設定
+
 DocumentRoot はこのバーチャルホストのルートディレクトリを指定
+
 ErrorLog はエラーログのパス
+
 CustomLog はアクセスログのパス　combinedはログフォーマット
-```
+
 
 バーシャルホスト設定ファイルを登録
 ```
